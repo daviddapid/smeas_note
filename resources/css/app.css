@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* reset */
+* {
+    font-family: weezer;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 0.8em;
+}
+
+h6 {
+    font-size: 0.7em;
+}
+
+ol,
+ul {
+    list-style: initial;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+/* end reset */
+#cutecat-heart {
+    animation: cutecat-heart 2s infinite;
+}
+
+.bakso-font {
+    font-family: bakso;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes cutecat-heart {
+    to {
+        top: -80px;
+        opacity: 0;
+    }
+}
+
+@font-face {
+    font-family: weezer;
+    src: url('/public/font/weezerfont.ttf');
+}
+
+@font-face {
+    font-family: bakso;
+    src: url('/public/font/BaksoSapi.otf');
+}
